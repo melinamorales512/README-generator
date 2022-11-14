@@ -2,6 +2,7 @@
 
 const fs = require('fs'); 
 const inquirer = require('inquirer'); 
+const { type } = require('os');
 
 // TODO: Create an array of questions for user input
 
@@ -105,14 +106,83 @@ return inquirer.prompt([
       }
   } 
 },
+{
+    type:'input',
+       name: 'License',
+       message: 'Enter license name',
+       validate: nameInput => {
+        if (nameInput) {
+            return true;
+        } else {
+            console.log('Please enter license name!');
+            return false; 
+        }
+    } 
+  },
+  {
+  type:'input',
+     name: 'Contributing',
+     message: 'Contributors should read the installation section.',
+     validate: nameInput => {
+      if (nameInput) {
+          return true;
+      } else {
+          console.log('Contributions are welcome');
+          return false; 
+      }
+  } 
+
+},
+{
+  type:'input',
+     name: 'tests',
+     message: 'npm test',
+     validate: nameInput => {
+      if (nameInput) {
+          return true;
+      } else {
+          console.log('nmp test');
+          return false; 
+      }
+  } 
+
+},
+{
+  type:'input',
+     name: 'Questions',
+     message: 'Any questions about this projects, you can send me an email melinamorales@gmail.com',
+     validate: nameInput => {
+      if (nameInput) {
+          return true;
+      } else {
+          console.log('Questions?');
+          return false; 
+      }
+  } 
+
+},
+{
+  type:'input',
+     name: 'Credits',
+     message: 'Credits for this projects',
+     validate: nameInput => {
+      if (nameInput) {
+          return true;
+      } else {
+          console.log('Credits');
+          return false; 
+      }
+  } 
+
+},
+
 
 ]);
 };
 
-
 // TODO: Create a function to write README file
 
-const generatePage = require.prompt
+const generatePage = require("./util/generateMarkdown.js");
 
 //function writeToFile(fileName, data) {}
 
