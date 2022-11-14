@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/melinamorales512/README-generator/issues"
   },
-  "homepage": "https://github.com/melinamorales512/README-generator#readme"
+  "homepage": "https://github.com/melinamorales512/README-generator#readme",
+  "dependencies": {
+    "inquirer": "^9.1.4"
+  }
 }
