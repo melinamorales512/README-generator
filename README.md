@@ -13,6 +13,9 @@
 * [Credits](#credits)
 ## Description
 This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js
+
+<iframe src="https://drive.google.com/file/d/1VYivxPWJmFpLFHzX8Ybb8o3nwIXzL3S7/preview" width="640" height="480"></iframe>
+
 ## Installation
 The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.
 ## Usage
