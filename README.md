@@ -1,4 +1,4 @@
-# r
+# README Generator
 
   
     
@@ -12,20 +12,20 @@
 * [Questions](#questions)
 * [Credits](#credits)
 ## Description
-y
+This application was created to generate a high-quality, professional README depending on a series of questions a user answers in their command line using Node.js
 ## Installation
-l
+The user should clone the repository from GitHub and download Node. This application also requires a file system and inquirer module.
 ## Usage
-w
+Use inquirer from your command line to answer questions about your project.
 
 ## Contributing
-k
+yes
 ## Tests
-e
+npm test
 ## Questions
 Have questions about this project?  
-GitHub: https://github.com/x  
-Email: g
+GitHub: https://github.com/melinamorales512@  
+Email: melinamorales956@gmail.com
 ## Credits
-m
+Melina Morales
   

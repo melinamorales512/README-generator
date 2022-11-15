@@ -4,7 +4,7 @@ function renderLicenseBadge(license) {
     if (!license) {
       return ``;
     } else {
-      return `[![${license} license](https://img.shields.io/badge/License-${license}-blue.svg)](${renderLicenseLink(license)})`
+      return `[![${license} license](https://img.shields.io/badge/License-MIT-blue.svg)](${renderLicenseLink(license)})`
     }
   }
   
